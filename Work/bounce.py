@@ -10,4 +10,4 @@ Write a program bounce.py that prints a table showing the height of the first 10
 height = 100
 for i in range(10):
     height *= 3.0 / 5.0
-    print(round(height,4))
+    print(round(height, 4))
