@@ -20,7 +20,9 @@ while principal > 0:
         cur_payment = principal
     principal = principal - cur_payment
     total_paid = total_paid + cur_payment
-    print("{:.2f}".format(total_paid), "{:.2f}".format(principal))
+    print(f"{total_paid:10.2f} {principal:9.2f}")
 
-print('Total paid', total_paid)
-print('Months', current_month)
+m = "Months"
+t = "Total paid"
+print(f"{t:>10s} {total_paid:9.2f}")
+print(f"{m:>10s} {current_month:9.2f}")
